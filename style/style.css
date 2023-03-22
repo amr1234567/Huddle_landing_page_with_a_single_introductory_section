@@ -31,7 +31,40 @@ h2{
 .block{
     display: flex;
     flex-direction: row;
-    
+
+}
+.logo{
+    width: 200px;
+    margin: 50px 70px;
+}
+.illustration-mockups{
+    width: 50%;
+    margin: 0px 0px 0px 70px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    padding: 0px 48px;
+}
+.details>p{
+    color: #f0f8ffc2;
+    margin-bottom: 30px;
+}
+.button{
+    color: var(--Violet);
+    background-color: aliceblue;
+    width: 180px;
+    height: 50px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 16px 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button:hover{
+    background-color: var(--Soft_Magenta);
+    color: aliceblue;
 }
 
 .attribution { font-size: 11px; text-align: center; }
